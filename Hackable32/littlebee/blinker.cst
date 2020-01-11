@@ -1,0 +1,3 @@
+// 12 Mhz clock
+IO_LOC "clock" 35;
+IO_LOC "led" 86;
