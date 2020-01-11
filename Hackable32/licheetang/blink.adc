@@ -1,0 +1,2 @@
+set_pin_assignment {clock} { LOCATION = K14; } ##24MHZ
+set_pin_assignment {led} { LOCATION = R3; } ##LED_R, R3
