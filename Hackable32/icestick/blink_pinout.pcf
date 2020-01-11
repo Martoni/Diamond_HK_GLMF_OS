@@ -1,0 +1,2 @@
+set_io clock 21
+set_io led 99
