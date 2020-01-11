@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<efxpt:design_db name="ledblink" device_def="T8F81" location="/home/fabien/documents_synchronise/Documents/myarticles/kitfpga/documentation/fireant" version="2019.1.95" last_change_date="Sat Nov 23 22:04:56 2019" xmlns:efxpt="http://www.efinixinc.com/peri_design_db" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/peri_design_db peri_design_db.xsd ">
+    <efxpt:device_info>
+        <efxpt:iobank_info>
+            <efxpt:iobank name="1A" iostd="3.3 V LVTTL / LVCMOS"/>
+            <efxpt:iobank name="1B" iostd="3.3 V LVTTL / LVCMOS"/>
+            <efxpt:iobank name="1C" iostd="1.1 V"/>
+            <efxpt:iobank name="2A" iostd="3.3 V LVTTL / LVCMOS"/>
+            <efxpt:iobank name="2B" iostd="3.3 V LVTTL / LVCMOS"/>
+        </efxpt:iobank_info>
+    </efxpt:device_info>
+    <efxpt:gpio_info device_def="T8F81">
+        <efxpt:gpio name="gpio_inst1" gpio_def="GPIOR_05" mode="output" bus_name="" is_lvds_gpio="false">
+            <efxpt:output_config name="led" name_ddio_lo="" register_option="none" clock_name="" is_clock_inverted="false" drive_strength="1" is_slew_rate="false" tied_option="none" ddio_type="none"/>
+        </efxpt:gpio>
+        <efxpt:gpio name="gpio_inst2" gpio_def="GPIOL_20" mode="input" bus_name="" is_lvds_gpio="false">
+            <efxpt:input_config name="gpio_inst2" name_ddio_lo="" conn_type="alternate" is_register="false" clock_name="" is_clock_inverted="false" pull_option="none" is_schmitt_trigger="false" ddio_type="none"/>
+        </efxpt:gpio>
+        <efxpt:global_unused_config state="input with weak pullup"/>
+    </efxpt:gpio_info>
+    <efxpt:pll_info>
+        <efxpt:pll name="pll_inst1" pll_def="PLL_0" ref_clock_name="" ref_clock_freq="33.33" multiplier="32" pre_divider="1" post_divider="4" reset_name="PLL_RSTN" locked_name="PLL_LOCKED" is_ipfrz="false" is_bypass_lock="true">
+            <efxpt:output_clock name="clock" number="0" out_divider="8"/>
+        </efxpt:pll>
+    </efxpt:pll_info>
+    <efxpt:osc_info/>
+    <efxpt:jtag_info/>
+</efxpt:design_db>
