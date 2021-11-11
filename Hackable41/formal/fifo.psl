@@ -1,0 +1,18 @@
+vunit i_fifo(fifo(fifo_1))
+{
+    default clock is rising_edge(clk);
+    f_reset: assume {rst};
+
+    f_empty_o: assert always {fell(rst)} |-> {empty_o = '1'};
+
+    f_fullempty: assert always {empty_o} |-> {not full_o};
+    f_emptyfull: assert always {full_o} |-> {not empty_o};
+
+    fc_full : cover {
+        full_o and not rst;
+        not rst [+];
+        empty_o and not rst;
+        not rst [+];
+        full_o and not rst
+        };
+}

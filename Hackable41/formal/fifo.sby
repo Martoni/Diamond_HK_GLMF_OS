@@ -1,0 +1,24 @@
+[tasks]
+bmc
+cover
+
+[options]
+bmc: mode bmc
+bmc: depth 20 
+
+cover: mode cover
+cover: depth 40
+
+[engines]
+smtbmc
+
+[script]
+ghdl --std=08 fifo.vhd fifo.psl -e fifo
+prep -top fifo
+
+[files]
+../src/fifo.vhd
+fifo.psl
+
+# to run it :
+# sby --yosys "yosys -m /opt/ghdl-yosys-plugin/ghdl.so" -f fifo.sby
