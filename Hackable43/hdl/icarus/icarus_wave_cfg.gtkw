@@ -1,0 +1,45 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Sat Jul 23 06:05:04 2022
+[*]
+[dumpfile] "/home/fabien/myapp/art_verilator/hdl/icarus/RgbVideo_tb.vcd"
+[dumpfile_mtime] "Sat Feb  5 19:59:38 2022"
+[dumpfile_size] 25837149
+[savefile] "/home/fabien/myapp/Diamond_HK_GLMF_OS/Hackable43/hdl/icarus/icarus_wave_cfg.gtkw"
+[timestart] 0
+[size] 1362 743
+[pos] 341 -9
+*-27.249350 1301000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] RgbVideo_tb.
+[treeopen] RgbVideo_tb.top.
+[sst_width] 220
+[signals_width] 110
+[sst_expanded] 1
+[sst_vpaned_height] 302
+@28
+RgbVideo_tb.top.clk_i
+RgbVideo_tb.top.rst_i
+@200
+-synchro
+@28
+RgbVideo_tb.top.display_on
+[color] 3
+RgbVideo_tb.top.hsync_o
+[color] 3
+RgbVideo_tb.top.vsync_o
+@200
+-color
+@28
+RgbVideo_tb.top.blue_o
+RgbVideo_tb.top.green_o
+RgbVideo_tb.top.red_o
+@200
+-count
+@25
+RgbVideo_tb.top.hpos[9:0]
+@22
+RgbVideo_tb.top.vpos[8:0]
+@28
+RgbVideo_tb.top.square
+[pattern_trace] 1
+[pattern_trace] 0
