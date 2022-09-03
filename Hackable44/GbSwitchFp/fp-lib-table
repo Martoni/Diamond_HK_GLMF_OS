@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name GbSwitchMyLib)(type KiCad)(uri ${KIPRJMOD}/GbSwitchMyLib.pretty)(options "")(descr ""))
+  (lib (name kicad)(type KiCad)(uri /home/fabien/myelec/GbSwitch/ressources/sipeed/kicad)(options "")(descr ""))
+)

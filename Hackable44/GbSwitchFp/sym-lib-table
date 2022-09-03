@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name "Sipeed_module")(type "Legacy")(uri "/home/fabien/myelec/GbSwitch/ressources/sipeed/kicad/Sipeed_module.lib")(options "")(descr ""))
+  (lib (name "GbSwitchFp-rescue")(type "Legacy")(uri "${KIPRJMOD}/GbSwitchFp-rescue.lib")(options "")(descr ""))
+  (lib (name "gbswitch_edge_conn")(type "KiCad")(uri "${KIPRJMOD}/gbswitch_edge_conn.kicad_sym")(options "")(descr ""))
+  (lib (name "microsd_spi_cd")(type "Legacy")(uri "${KIPRJMOD}/microsd_spi_cd.lib")(options "")(descr ""))
+  (lib (name "diode_inversed")(type "KiCad")(uri "${KIPRJMOD}/diode_inversed.kicad_sym")(options "")(descr ""))
+)

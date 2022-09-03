@@ -1,0 +1,26 @@
+### Module positions - created on Tue 28 Dec 2021 09:32:00 AM CET ###
+### Printed by Pcbnew version kicad 5.0.2+dfsg1-1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                          PosX       PosY       Rot  Side
+C1        100n      C_0603_1608Metric           -123.8250  -115.0875  270.0000  bottom
+C4        100n      C_0603_1608Metric           -133.3500  -115.7225  270.0000  bottom
+C7        100n      C_0603_1608Metric           -126.1110  -131.4355  270.0000  bottom
+C8        100n      C_0603_1608Metric           -131.0385  -131.3340  180.0000  bottom
+R1        0         R_0603_1608Metric           -121.9200  -115.0875  270.0000  bottom
+R3        0         R_0603_1608Metric           -133.8580  -111.8870  270.0000  bottom
+R4        4.7k      R_0603_1608Metric           -139.1920   -82.4230  270.0000  bottom
+R5        4.7k      R_0603_1608Metric           -136.5100   -82.3275  270.0000  bottom
+R6        4.7k      R_0603_1608Metric           -134.4930   -82.7785  270.0000  bottom
+R7        4.7k      R_0603_1608Metric           -132.0800   -82.5245  270.0000  bottom
+R8        4.7k      R_0603_1608Metric           -128.0160   -82.4485  270.0000  bottom
+R9        4.7k      R_0603_1608Metric           -125.6030   -82.4485  270.0000  bottom
+R10       4.7k      R_0603_1608Metric           -123.1900   -82.4230  270.0000  bottom
+R11       4.7k      R_0603_1608Metric           -120.6500   -82.4485  270.0000  bottom
+R12       0         R_0603_1608Metric           -123.6980  -129.1750  270.0000  bottom
+R13       0         R_0603_1608Metric           -135.0010  -126.7620  270.0000  bottom
+U1        LJ245A    TSSOP-24_4.4x7.8mm_P0.65mm  -128.7780  -110.3630    0.0000  bottom
+U3        LTV-247   SOP-16_4.4x10.4mm_P1.27mm   -135.1230   -74.0660   90.0000  bottom
+U4        LTV-247   SOP-16_4.4x10.4mm_P1.27mm   -123.8300   -74.0660   90.0000  bottom
+U6        LJ245A    TSSOP-24_4.4x7.8mm_P0.65mm  -129.0320  -125.3650    0.0000  bottom
+## End

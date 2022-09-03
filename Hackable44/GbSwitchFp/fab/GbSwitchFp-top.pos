@@ -1,0 +1,10 @@
+### Module positions - created on Tue 28 Dec 2021 09:32:00 AM CET ###
+### Printed by Pcbnew version kicad 5.0.2+dfsg1-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val         Package                          PosX       PosY       Rot  Side
+C2        100n        C_0603_1608Metric            129.3875   -90.1700  180.0000  top
+C3        100n        C_0603_1608Metric            136.5250   -93.3450  270.0000  top
+R2        0           R_0603_1608Metric            127.7875   -99.0600  180.0000  top
+U2        TXS0108EPW  TSSOP-20_4.4x6.5mm_P0.65mm   131.4740   -94.6040    0.0000  top
+## End
