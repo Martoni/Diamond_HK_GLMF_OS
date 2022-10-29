@@ -1,0 +1,8 @@
+# import du module
+ghdl RgbVideo
+
+# synthèse
+#proc; opt; fsm; opt; memory; opt;
+
+# sortie Verilog
+write_verilog RgbVideo.v
