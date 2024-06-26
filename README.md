@@ -19,3 +19,6 @@ Code de mes articles dans les magazines des éditions diamond.
 * Hackable43: Verilator, le simulateur Verilog le plus rapide du monde
 * Hackable44: Transformez votre vieille Game Boy en console de salon HDMI
 * Hackable45: Accélérez vos simulations VHDL avec Verilator
+* Hackable55:
+    * Pimp my LED counter, les performances de l’addition
+    * Un oscilloscope à pédale
